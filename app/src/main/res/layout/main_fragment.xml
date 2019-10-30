@@ -7,14 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".ui.main.MainFragment">
 
-    <TextView
-        android:id="@+id/message"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="MainFragment"
+    <Button
+        android:id="@+id/searchBtn"
+        android:layout_width="195dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="253dp"
+        android:text="@android:string/search_go"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:background="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/textView"
+        android:layout_width="194dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="45dp"
+        android:hint="Enter Search Term"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/searchBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:importantForAutofill="no" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

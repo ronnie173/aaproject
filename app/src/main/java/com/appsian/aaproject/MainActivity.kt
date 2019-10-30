@@ -3,6 +3,8 @@ package com.appsian.aaproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.appsian.aaproject.ui.main.MainFragment
+import com.appsian.aaproject.ui.main.MainViewModel
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : AppCompatActivity() {
 
