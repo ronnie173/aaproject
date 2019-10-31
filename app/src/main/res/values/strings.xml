@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">aaproject</string>
+
+    <!-- SearchResultsFragment -->
+    <string name="booking_details_full_view_activity_title"></string>
+    <string name="car1_view_holder_text_view_text_view_text">1-2</string>
+    <string name="car1_view_holder_text_view_two_text_view_text">7:35</string>
+    <string name="car1_view_holder_text_view_three_text_view_text">$425.50</string>
+    <string name="name_text">BMW CABRIO</string>
+    <string name="description_text">Operated by </string>
+    <string name="image">Image</string>
 </resources>

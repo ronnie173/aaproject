@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/car2_copy2_view_holder_rectangle_constraint_layout_radius"/>
+
+	<solid android:color="@color/car2_copy2_view_holder_rectangle_constraint_layout_background_color"/>
+</shape>

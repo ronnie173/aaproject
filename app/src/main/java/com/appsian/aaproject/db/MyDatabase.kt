@@ -2,11 +2,11 @@ package com.appsian.aaproject.db
 
 import android.content.Context
 import androidx.room.*
-import androidx.sqlite.db.SupportSQLiteOpenHelper
 import com.appsian.aaproject.db.daos.GitHubSearchResultsDao
-import com.appsian.aaproject.db.entities.GitHubSearchResults
+import com.appsian.aaproject.db.entities.Repo
+import com.appsian.aaproject.db.entities.User
 
-@Database(entities = [GitHubSearchResults::class], version = 1)
+@Database(entities = [Repo::class, User::class], version = 1,exportSchema = false)
 abstract class MyDatabase:RoomDatabase() {
 abstract fun gitHubSearchResultsDao(): GitHubSearchResultsDao
     companion object {

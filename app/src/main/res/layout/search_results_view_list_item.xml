@@ -1,0 +1,136 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/car1"
+	android:layout_width="match_parent"
+	android:layout_height="@dimen/car1_view_holder_car1_height"
+	android:background="@drawable/car1_view_holder_car1_background">
+
+	<ImageView
+		android:id="@+id/avatar_url"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginEnd="@dimen/car1_view_holder_bmw4er_cabrio2d_weiss2017_image_view_margin_end"
+		android:scaleType="center"
+		android:src="@drawable/bmw_4er_cabrio_2d_weiss_2017"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="233dp"
+		tools:layout_editor_absoluteY="9dp"
+		android:contentDescription="@string/image" />
+
+<!--	<TextView-->
+<!--		android:id="@+id/text_view_text_view"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_marginBottom="@dimen/car1_view_holder_text_view_text_view_margin_bottom"-->
+<!--		android:layout_marginStart="@dimen/car1_view_holder_text_view_text_view_margin_start"-->
+<!--		android:gravity="start"-->
+<!--		android:text="@string/car1_view_holder_text_view_text_view_text"-->
+<!--		android:textColor="@color/car1_view_holder_text_view_text_view_text_color"-->
+<!--		android:textSize="@dimen/car1_view_holder_text_view_text_view_text_size"-->
+<!--		app:layout_constraintBottom_toBottomOf="parent"-->
+<!--		app:layout_constraintLeft_toRightOf="@+id/icons_line_right_arrow_copy3_image_view"-->
+<!--		tools:layout_editor_absoluteX="139dp"-->
+<!--		tools:layout_editor_absoluteY="62dp"/>-->
+
+<!--	<TextView-->
+<!--		android:id="@+id/text_view_two_text_view"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_marginBottom="@dimen/car1_view_holder_text_view_two_text_view_margin_bottom"-->
+<!--		android:layout_marginEnd="@dimen/car1_view_holder_text_view_two_text_view_margin_end"-->
+<!--		android:gravity="start"-->
+<!--		android:text="@string/car1_view_holder_text_view_two_text_view_text"-->
+<!--		android:textColor="@color/car1_view_holder_text_view_two_text_view_text_color"-->
+<!--		android:textSize="@dimen/car1_view_holder_text_view_two_text_view_text_size"-->
+<!--		app:layout_constraintBottom_toBottomOf="parent"-->
+<!--		app:layout_constraintRight_toLeftOf="@+id/avatar_url"-->
+<!--		tools:layout_editor_absoluteX="191dp"-->
+<!--		tools:layout_editor_absoluteY="62dp"/>-->
+
+	<TextView
+		android:id="@+id/stargazers_count"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="@dimen/car1_view_holder_text_view_three_text_view_margin_bottom"
+		android:layout_marginStart="@dimen/car1_view_holder_text_view_three_text_view_margin_start"
+		android:gravity="start"
+		android:text="5633"
+		android:textColor="@color/stargazers_count_color"
+		android:textSize="@dimen/stargazers_count_dimens"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		tools:layout_editor_absoluteX="29dp"
+		tools:layout_editor_absoluteY="59dp"/>
+
+	<TextView
+		android:id="@+id/name"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/car1_view_holder_bmw_cabrio_text_view_margin_start"
+		android:layout_marginTop="@dimen/car1_view_holder_bmw_cabrio_text_view_margin_top"
+		android:gravity="start"
+		android:text="@string/name_text"
+		android:textColor="@color/car1_view_holder_bmw_cabrio_text_view_text_color"
+		android:textSize="@dimen/car1_view_holder_bmw_cabrio_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="29dp"
+		tools:layout_editor_absoluteY="13dp"/>
+
+	<TextView
+		android:id="@+id/description"
+		android:layout_width="@dimen/car1_view_holder_operated_by_text_view_width"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="@dimen/car1_view_holder_operated_by_text_view_margin_start"
+		android:layout_marginTop="@dimen/car1_view_holder_operated_by_text_view_margin_top"
+		android:gravity="start"
+		android:text="@string/description_text"
+		android:textColor="@color/description_text_color"
+		android:textSize="@dimen/car1_view_holder_operated_by_text_view_text_size"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/name"
+		tools:layout_editor_absoluteX="29dp"
+		tools:layout_editor_absoluteY="35dp"/>
+
+<!--	<ImageView-->
+<!--		android:id="@+id/icons_line_right_arrow_copy3_image_view"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_marginBottom="@dimen/car1_view_holder_icons_line_right_arrow_copy3_image_view_margin_bottom"-->
+<!--		android:layout_marginStart="@dimen/car1_view_holder_icons_line_right_arrow_copy3_image_view_margin_start"-->
+<!--		android:scaleType="center"-->
+<!--		android:src="@drawable/_22_icons_line_right_arrow_copy_3"-->
+<!--		app:layout_constraintBottom_toBottomOf="parent"-->
+<!--		app:layout_constraintLeft_toRightOf="@+id/text_view_three_text_view"-->
+<!--		tools:layout_editor_absoluteX="119dp"-->
+<!--		tools:layout_editor_absoluteY="62dp"/>-->
+
+<!--	<ImageView-->
+<!--		android:id="@+id/icons_line_right_arrow_copy4_image_view"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_marginBottom="@dimen/car1_view_holder_icons_line_right_arrow_copy4_image_view_margin_bottom"-->
+<!--		android:layout_marginStart="@dimen/car1_view_holder_icons_line_right_arrow_copy4_image_view_margin_start"-->
+<!--		android:scaleType="center"-->
+<!--		android:src="@drawable/_22_icons_line_right_arrow_copy_4"-->
+<!--		app:layout_constraintBottom_toBottomOf="parent"-->
+<!--		app:layout_constraintLeft_toRightOf="@+id/text_view_text_view"-->
+<!--		tools:layout_editor_absoluteX="171dp"-->
+<!--		tools:layout_editor_absoluteY="61dp"/>-->
+
+<!--	<ImageView-->
+<!--		android:id="@+id/px_lyft_logo_svg_image_view"-->
+<!--		android:layout_width="wrap_content"-->
+<!--		android:layout_height="wrap_content"-->
+<!--		android:layout_marginTop="@dimen/car1_view_holder_px_lyft_logo_svg_image_view_margin_top"-->
+<!--		android:scaleType="center"-->
+<!--		android:src="@drawable/_1200px_lyft_logosvg"-->
+<!--		app:layout_constraintLeft_toRightOf="@+id/description"-->
+<!--		app:layout_constraintTop_toBottomOf="@+id/name"-->
+<!--		tools:layout_editor_absoluteX="89dp"-->
+<!--		tools:layout_editor_absoluteY="35dp"/>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

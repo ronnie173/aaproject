@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#FF6900</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!-- Project level resources -->
+    <color name="color_primary">#000000</color>
+    <color name="color_primary_dark">#000000</color>
+    <color name="color_accent">#000000</color>
+    <color name="click_overlay">#555555</color>
+    <color name="default_hint">#C6C6CB</color>
+    <color name="material_bottom_sheet_title">#8a000000</color>
+    <color name="material_bottom_sheet_item">#de000000</color>
+
+    <!-- SearchResultsFragment -->
+    <color name="booking_details_full_view_activity_booking_details_full_view_constraint_layout_background_color">#FF6900</color>
+    <color name="car1_view_holder_car1_background_color">#08000000</color>
+    <color name="car1_view_holder_car1_border_color">#FFFFFF</color>
+    <color name="car1_view_holder_text_view_text_view_text_color">#222B45</color>
+    <color name="car1_view_holder_text_view_two_text_view_text_color">#222B45</color>
+    <color name="stargazers_count_color">#000000</color>
+    <color name="car1_view_holder_bmw_cabrio_text_view_text_color">#222B45</color>
+    <color name="description_text_color">#222B45</color>
+    <color name="car2_view_holder_car2_background_color">#08000000</color>
+    <color name="car2_view_holder_car2_border_color">#FFFFFF</color>
+    <color name="car2_view_holder_text_view_text_view_text_color">#222B45</color>
+    <color name="car2_view_holder_text_view_two_text_view_text_color">#222B45</color>
+    <color name="car2_view_holder_text_view_three_text_view_text_color">#FFFFFF</color>
+    <color name="car2_view_holder_mustang_shelby_gt_text_view_text_color">#222B45</color>
+    <color name="car2_view_holder_operated_by_text_view_text_color">#222B45</color>
+    <color name="car2_copy_view_holder_car2_copy_background_color">#08000000</color>
+    <color name="car2_copy_view_holder_car2_copy_border_color">#FFFFFF</color>
+    <color name="car2_copy_view_holder_text_view_text_view_text_color">#222B45</color>
+    <color name="car2_copy_view_holder_text_view_two_text_view_text_color">#222B45</color>
+    <color name="car2_copy_view_holder_text_view_three_text_view_text_color">#FFFFFF</color>
+    <color name="car2_copy_view_holder_bmw_i8_text_view_text_color">#222B45</color>
+    <color name="car2_copy_view_holder_operated_by_text_view_text_color">#222B45</color>
+    <color name="car2_copy2_view_holder_rectangle_constraint_layout_background_color">#08000000</color>
+    <color name="car2_copy2_view_holder_rectangle_constraint_layout_border_color">#FFFFFF</color>
+    <color name="car2_copy2_view_holder_text_view_text_view_text_color">#222B45</color>
+    <color name="car2_copy2_view_holder_text_view_two_text_view_text_color">#222B45</color>
+    <color name="car2_copy2_view_holder_text_view_three_text_view_text_color">#FFFFFF</color>
+    <color name="car2_copy2_view_holder_jaguar_silber_text_view_text_color">#222B45</color>
+    <color name="car2_copy2_view_holder_operated_by_text_view_text_color">#222B45</color>
+    <color name="car2_copy3_view_holder_rectangle_constraint_layout_background_color">#08000000</color>
+    <color name="car2_copy3_view_holder_rectangle_constraint_layout_border_color">#FFFFFF</color>
+    <color name="car2_copy3_view_holder_text_view_text_view_text_color">#222B45</color>
+    <color name="car2_copy3_view_holder_text_view_two_text_view_text_color">#222B45</color>
+    <color name="car2_copy3_view_holder_text_view_three_text_view_text_color">#FFFFFF</color>
+    <color name="car2_copy3_view_holder_maserati_levante_text_view_text_color">#222B45</color>
+    <color name="car2_copy3_view_holder_operated_by_text_view_text_color">#222B45</color>
+    <color name="car2_copy4_view_holder_rectangle_constraint_layout_background_color">#08000000</color>
+    <color name="car2_copy4_view_holder_rectangle_constraint_layout_border_color">#FFFFFF</color>
+    <color name="car2_copy4_view_holder_text_view_text_view_text_color">#222B45</color>
+    <color name="car2_copy4_view_holder_text_view_two_text_view_text_color">#222B45</color>
+    <color name="car2_copy4_view_holder_text_view_three_text_view_text_color">#FFFFFF</color>
+    <color name="car2_copy4_view_holder_mercedes_amg_stext_view_text_color">#222B45</color>
+    <color name="car2_copy4_view_holder_operated_by_text_view_text_color">#222B45</color>
 </resources>

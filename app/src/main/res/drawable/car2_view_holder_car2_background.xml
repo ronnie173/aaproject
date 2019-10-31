@@ -1,0 +1,10 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/car2_view_holder_car2_border_color"
+		android:width="@dimen/car2_view_holder_car2_border_size"/>
+
+	<corners android:radius="@dimen/car2_view_holder_car2_radius"/>
+
+	<solid android:color="@color/car2_view_holder_car2_background_color"/>
+</shape>

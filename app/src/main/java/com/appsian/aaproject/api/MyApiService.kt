@@ -1,8 +1,9 @@
 package com.appsian.aaproject.api
 
+import androidx.lifecycle.LiveData
 import com.appsian.aaproject.BuildConfig
-import com.appsian.aaproject.db.entities.GitHubSearchResults
-import io.reactivex.Observable
+import com.appsian.aaproject.db.entities.Repo
+import com.appsian.aaproject.utils.ApiResponse
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
@@ -17,10 +18,8 @@ interface MyApiService {
      * @return the data
      */
     @GET("search/repositories")
-    fun getData(@Query("q") q: String,
-                @Query("sort") sort: String,
-                @Query("order") order: String):
-            Observable<GitHubSearchResults>
+    fun getData(@Query("q") q: String):
+            LiveData<ApiResponse<List<Repo>>>
 
     companion object {
         fun create(): MyApiService {

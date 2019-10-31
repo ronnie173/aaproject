@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<corners android:radius="@dimen/car1_view_holder_car1_radius"/>
+
+	<solid android:color="@color/car1_view_holder_car1_background_color"/>
+</shape>

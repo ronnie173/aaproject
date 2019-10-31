@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.appsian.aaproject.ui.main.MainFragment"
+        android:label="main_fragment"
+        tools:layout="@layout/main_fragment" >
+        <action
+            android:id="@+id/toSearchResultsFragment"
+            app:destination="@id/searchResultsFragment" />
+        <argument
+            android:name="query"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+    <fragment
+        android:id="@+id/searchResultsFragment"
+        android:name="com.appsian.aaproject.ui.searchresults.SearchResultsFragment"
+        android:label="SearchResultsFragment" >
+        <argument
+            android:name="query"
+            app:argType="string"
+            android:defaultValue='""' />
+    </fragment>
+</navigation>
